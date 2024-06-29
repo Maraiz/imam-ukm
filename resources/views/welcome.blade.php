@@ -173,8 +173,55 @@
                 </div>
             </div>
          </section>
-
          {{-- Pendaftaran Penutup --}}
+
+         {{-- Bagian Vedeo --}}
+
+         <section id="video" class="py-5">
+            <div class="container py-5">
+                <div class="text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SNSCvaQ8RuA?si=MOgptmV9T7jbVS6c" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+         </section>
+
+         <section id="video_youtube" class="py-5">
+            <div class="container py-5">
+                <div class="header-berita text-center">
+                    <h2 class="fw-bold">Video Terkini UKM Imam</h2>
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-lg-4">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/SNSCvaQ8RuA?si=MOgptmV9T7jbVS6c" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/SNSCvaQ8RuA?si=MOgptmV9T7jbVS6c" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/SNSCvaQ8RuA?si=MOgptmV9T7jbVS6c" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="footer-berita text-center">
+                    <a href="" class="btn btn-outline-danger">Video Lainnya</a>
+                </div>
+            </div>
+         </section>
+         {{-- Bagian Vedeo Penutup--}}
+
+
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
