@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    z-index: 2;
 }
+
+body{
+    background-color: rgba(212,255,202,255);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 
 /* Button */
 .btn-danger{
@@ -38,7 +50,7 @@ body{
 }
 
 #hero{
-    background-image: url("../../assets/images/bg-hero.jpeg"); /* tempat gambar bagroud landing page */
+    background-image: url("../../assets/images/bg-hero.jpeg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,3 +82,195 @@ body{
     background-position: center;
     height: 500px;
 }
+
+/* foto */
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url("../../assets/images/il-bg-foto2.jpeg");
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+}
+
+#About {
+    position: relative;
+    /* top: 3px; */
+    width: 100%;
+    height: 500px;
+}
+
+#Team {
+    /* background: #ffffff; */
+    position: relative;
+    /* top: 1px;  */
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#Contact {
+    position: relative;
+    /* top: 250px; */
+    width: 100%;
+    height: 500px;
+}
+
+.row .col-lg-4 .card {
+    background-color: #d4ffca; 
+    border-radius: 10px; 
+    padding: 20px; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+}
+
+.row .col-lg-4 .card .konten-berita {
+    background-color: #d4ffca; 
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.info-tagline h2 {
+    color: #000000;
+    font: 800 35px "Poppins", sans-serif;
+    position: relative;
+    left: 99px;
+    top: 29px;
+}
+
+.box1 {
+    background: #ffffff;
+    border-radius: 40px;
+    width: 1314px;
+    min-height: 400px;
+    height: auto;
+    position: relative;
+    left: 100px;
+}
+
+.rectangle {
+    background: #000000;
+    border-radius: 5px;
+    width: 6px;
+    height: 41px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.info-team h2 {
+    color: #000000;
+    text-align: left;
+    font: 800 35px "Poppins", sans-serif;
+    position: relative;
+    left: 80px;
+    top: 70px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-link img {
+    margin-right: 10px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+}
+
+.contact-link {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-link img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-link h5 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Footer */
+#footer {
+    background: #aef79a;
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: 320px;
+    padding: 20px;
+    color: #000000;
+    margin-top: auto;
+}
+
+.footer-img {
+    position: relative;
+    top: 10px;
+}
+
+.footer-text {
+    position: relative;
+    top: 10px;
+}
+
+/* CSS untuk mengatur gaya footer */
+.footer {
+    background-color: #aef79a; /* Warna latar belakang footer */
+    padding: 20px 0; /* Padding atas dan bawah pada footer */
+    position: relative;
+}
+
+.footer-line {
+    border-top: 1px solid #000; /* Garis atas footer */
+    margin-bottom: 20px; /* Jarak antara garis dan konten footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Menyebarkan elemen ke kiri dan kanan */
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    padding-top: 10px; /* Tambahkan padding atas untuk menurunkan teks */
+}
+
+.footer-left {
+    text-align: left; /* Menyelaraskan teks di sebelah kiri */
+}
+
+.footer-right {
+    text-align: right; /* Menyelaraskan teks di sebelah kanan */
+}
+
+.footer-right a {
+    margin-left: 15px; /* Memberi jarak antara link */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: black; /* Warna teks link */
+}
+
+.footer-right a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah pada link saat hover */
+}
+
+
