@@ -60,6 +60,7 @@
             </div>
          </section>
 
+<<<<<<< HEAD
          <section id="program" style="margin-top: -30px">
             <div class="container">
                 <div class="row">
@@ -93,12 +94,21 @@
                                 <h5>Pendidikan <br> Tegnologi</h5>
                             </div> 
                             <img src="{{asset('assets/icons/ic-komputer.png')}}" height="55" width="55" alt="">
+=======
+         <section id="program">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <h4>Pendidikan Berkualitas</h4>
+>>>>>>> 04edc9851efc603ba19134db42d83eafd67a35ad
                         </div>
                     </div>
                 </div>
             </div>
          </section>
 
+<<<<<<< HEAD
          {{-- Navbar penutup --}}
 
          {{-- Berita --}}
@@ -170,6 +180,11 @@
             };
         </script>
 
+=======
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+>>>>>>> 04edc9851efc603ba19134db42d83eafd67a35ad
     </body>
 
 </html>

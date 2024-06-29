@@ -13,6 +13,7 @@ body{
     color: white;
 }
 
+<<<<<<< HEAD
 .btn-outline-danger{
     background-color: transparent;
     border-radius: 10px;
@@ -21,11 +22,14 @@ body{
     color: rgb(255, 0, 0);
 }
 
+=======
+>>>>>>> 04edc9851efc603ba19134db42d83eafd67a35ad
 /* Navbar */
 .nav-item .nav-link {
     font-size: 18px;
     margin-left: 5px;
     margin-right: 5px;
+<<<<<<< HEAD
 }
 
 .scroll-nav-active {
@@ -35,6 +39,9 @@ body{
 
 .text-nav-active {
     color: black;
+=======
+
+>>>>>>> 04edc9851efc603ba19134db42d83eafd67a35ad
 }
 
 #hero{
