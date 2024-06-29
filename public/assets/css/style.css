@@ -30,7 +30,7 @@ body{
 
 .scroll-nav-active {
     background-color: white;
-    border-bottom: 1px solid #f60000;
+    border-bottom: 1px solid #000000;
 }
 
 .text-nav-active {
@@ -53,4 +53,10 @@ body{
     font-size: 65px;
     font-weight: 600;
 
+}
+
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: red;
 }

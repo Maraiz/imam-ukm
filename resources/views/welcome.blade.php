@@ -102,7 +102,7 @@
          {{-- Navbar penutup --}}
 
          {{-- Berita --}}
-         <section id="berita">
+         <section id="berita" class="py-5">
             <div class="container py-5">
                 <div class="header-berita text-center">
                     <h2 class="fw-bold">Berita Terkini UKM Imam</h2>
@@ -150,6 +150,31 @@
             </div>
          </section>
          {{-- Berita Penutup --}}
+
+         {{-- Pendaftaran --}}
+
+         <section id="join" class="py-5">
+            <div class="container py-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <div class="d-flex align-center mb-3">
+                            <div class="stripe me-2"></div>
+                            <h5>Daftar Anggota</h5>
+                        </div>
+                        <h1 class="fw-bold mb-2">Gabung Bersama kami, mewujudkan generasi rabbani</h1>
+                        <p class="mb-3">UKM IMAM Poliwangi adalah Unit Kegiatan Mahasiswa yang berfokus pada aspek spiritual dan keagamaan di Politeknik Negeri Banyuwangi (Poliwangi).
+                            UKM ini bertujuan untuk membina dan memperkuat iman serta meningkatkan pemahaman dan praktik keagamaan di kalangan mahasiswa.
+                        </p>
+                        <button class="btn btn-outline-danger">Register</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="{{asset('assets/images/il-join.png')}}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         {{-- Pendaftaran Penutup --}}
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
