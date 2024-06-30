@@ -17,3 +17,7 @@ Route::get('/detail', function () {
 Route::get('/fotokegiatan', function () {
     return view('foto.foto');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
