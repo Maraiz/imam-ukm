@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +41,8 @@ body{
 
 .scroll-nav-active {
     background-color: white;
-    border-bottom: 1px solid #000000;
+    /* border-bottom: 1px solid #000000; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 0, 8, 0.08);    
 }
 
 .text-nav-active {
@@ -50,7 +50,7 @@ body{
 }
 
 #hero{
-    background-image: url("../../assets/images/bg-hero.jpeg"); 
+    background-image: url("../../assets/images/home3.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -61,10 +61,31 @@ body{
     padding-top: 200px;
 }
 
-.hero-text {
+/* .hero-text {
     font-size: 65px;
     font-weight: 600;
+} */
 
+/* Respisive */
+@media screen and (min-width: 450px){
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .hero-text {
+        font-size: 65px;
+        font-weight: 600;
+    }
 }
 
 /* join */
@@ -238,39 +259,39 @@ body{
 
 /* CSS untuk mengatur gaya footer */
 .footer {
-    background-color: #aef79a; /* Warna latar belakang footer */
-    padding: 20px 0; /* Padding atas dan bawah pada footer */
+    background-color: #aef79a; 
+    padding: 20px 0; 
     position: relative;
 }
 
 .footer-line {
-    border-top: 1px solid #000; /* Garis atas footer */
-    margin-bottom: 20px; /* Jarak antara garis dan konten footer */
+    border-top: 1px solid #000; 
+    margin-bottom: 20px; 
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between; /* Menyebarkan elemen ke kiri dan kanan */
-    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
-    padding-top: 10px; /* Tambahkan padding atas untuk menurunkan teks */
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 10px; 
 }
 
 .footer-left {
-    text-align: left; /* Menyelaraskan teks di sebelah kiri */
+    text-align: left; 
 }
 
 .footer-right {
-    text-align: right; /* Menyelaraskan teks di sebelah kanan */
+    text-align: right;
 }
 
 .footer-right a {
-    margin-left: 15px; /* Memberi jarak antara link */
-    text-decoration: none; /* Menghilangkan garis bawah pada link */
-    color: black; /* Warna teks link */
+    margin-left: 15px;
+    text-decoration: none; 
+    color: black; 
 }
 
 .footer-right a:hover {
-    text-decoration: underline; /* Menambahkan garis bawah pada link saat hover */
+    text-decoration: underline; 
 }
 
 
